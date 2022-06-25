@@ -1,0 +1,191 @@
+<html lang="en">
+  <head>
+    <link rel="icon" href="image/logo_amikom_full_color.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> D3 Teknik Informatika</title>
+  </head>
+  <body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right, #fcd50c,#f5911f);">
+      <div class="container-fluid">
+        <img src="image/logo_amikom_satu_warna.png" alt="" height="30px" width="auto" class="ps-3" />
+        <a class="navbar-brand ps-2" href="#"><strong>AMIKOM</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item nav">
+              <a class="nav-link active text-light" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown nav">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
+              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../profil/sejarah/sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item" href="../profil/visi_misi/visi_misi.html">Visi & Misi</a></li>
+                <li><a class="dropdown-item" href="../profil/deskripsi_prodi/deskripsi_prodi.html">Deskripsi Prodi</a></li>
+                <li><a class="dropdown-item" href="../profil/contact_prodi/contact_prodi.html">Contact Prodi</a></li>
+                <li><a class="dropdown-item" href="../profil/pengelola_prodi/pengelola_prodi.html">Pengelola Prodi</a></li>
+                <li><a class="dropdown-item" href="../profil/kompetensi/kompetensi.html">Kompetensi Lulusan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item nav">
+              <a class="nav-link text-light" href="#">Organisasi</a>
+            </li>
+            <li class="nav-item dropdown nav">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Konsentrasi </a>
+              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../konsentrasi/web development/web_development.html">Web Development </a></li>
+                <li><a class="dropdown-item" href="../konsentrasi/networking/networking.html">Networking </a></li>
+                <li><a class="dropdown-item" href="../konsentrasi/animasi/animasi.html">2D Animation </a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item nav">
+              <a class="nav-link text-light" href="../award/award.html">Award</a>
+            </li>
+            <li class="nav-item nav">
+              <a class="nav-link text-light" href="../sarana_prasarana/sarana_prasarana.html">Sarana & Prasarana</a>
+            </li>
+            <li class="nav-item nav">
+              <a class="nav-link text-light" href="../pendaftaran/pendaftaran.html">Pendaftaran</a>
+            </li>
+            <li class="nav-item dropdown nav">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info lainnya </a>
+              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../info_lainnya/dosen/dosen.html">Dosen</a></li>
+                <li><a class="dropdown-item" href="../info_lainnya/kurikulum/kurikulum.html">Kurikulum</a></li>
+                <li><a class="dropdown-item" href="../info_lainnya/krs/krs.html">KRS</a></li>
+                <li><a class="dropdown-item" href="../info_lainnya/info_beasiswa/info_beasiswa.html">Informasi Beasiswa</a></li>
+                <li><a class="dropdown-item" href="#">Sosial media</a></li>
+                <li><a class="dropdown-item" href="#">Sosial media</a></li>
+                <li><a class="dropdown-item" href="#">Sosial media</a></li>
+                <li><a class="dropdown-item" href="#">Sosial media</a></li>
+                <li><a class="dropdown-item" href="#">Sosial media</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- /navbar -->
+
+<!-- home -->
+      <section id="home">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="selamat_datang col-md-6 pt-5">
+              <div>
+                <h1><strong  style="color:#f5911f">Selamat </strong> <strong>Datang</strong></h1>
+              </div>
+            </div>
+            <div class="row pt-3">
+             <h2><strong> Di Website</strong><strong style="color: #f5911f;"> Prodi D3 Teknik Informatika</strong> </h2>
+            </div>
+            <div class="col-md-8 pt-5 pb-5 pe-5 text-start">
+              <p style="color: #ffffff;">
+                Mulai proses belajar-mengajar sejak tahun 1994, dan telah meluluskan lebih dari 1000 alumni sejak tahun 1997. Tersebar diseluruh pelosok negeri hingga mancanegara. Berprofesi sebagai tenaga ahli bidang IT, programmer,
+                desainer dan web developer, teknisi komputer dan jaringan, sutradara film animasi, professional, pengusaha, staf, pns, hingga pejabat kantor pemerintah. Banyak pula yang sudah melanjutkan ke jenjang pendidikan program
+                sarjana, master hingga doctoral.
+              </p>
+            </div>
+            <div class="class">
+              <h4 class="pb-5">
+                <i>swipe</i> <a href="#text-isi"><button class="btn btn-warning"><i class="bi bi-arrow-down-circle"></button></i></a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- /home -->
+
+<!-- isi -->
+      <section id="isi">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7F2EAE" fill-opacity="1" d="M0,192L80,213.3C160,235,320,277,480,266.7C640,256,800,192,960,181.3C1120,171,1280,213,1360,234.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+        <div class="container">
+          <div class="row mb-4 pt-5" id="text-isi">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500"  data-aos-easing="fade-right">
+              <img src="image/foto_pak_barka.png" alt="foto_pak_barka" style="width: 80%;">
+            </div>
+            <div class="col-md-6 align-self-end pt-2" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="fade-left">
+              <h3>10 Alasan Kenapa Harus Mengambil Prodi D3 Teknik Informatika</h3>
+              <hr>
+              <ul>
+                <li>Biaya lebih hemat</li>
+                <li>Lebih cepat lulus</li>
+                <li>SKS lebih sedikit</li>
+                <li>Tidak ada skripsi</li>
+                <li>Banyak praktek</li>
+                <li>Materi kuliah lebih spesifik</li>
+                <li>Banyak pengalaman terjun ke lapangan</li>
+                <li>Lulusan siap kerja</li>
+                <li>Lulusan banyak diminati perusahaan</li>
+                <li>Bisa memiliki banyak gelar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- /isi -->
+
+<!-- footer -->
+      <footer style="background-image: linear-gradient(to bottom right ,#5b26ab, #7d1e88);">
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L40,208C80,192,160,160,240,144C320,128,400,128,480,149.3C560,171,640,213,720,197.3C800,181,880,107,960,101.3C1040,96,1120,160,1200,160C1280,160,1360,96,1400,64L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+      <div class="container">
+        <div class="row justify-content-around" style="color: whitesmoke;">
+          <div class="col-md-3">
+            <img src="image/logo-amikom-putih.png" alt="logo-amikom-putih" style="height: 80px; width: auto;" class="ps-4 pb-4">
+            <p class="ps-4">Alamat Kampus: Jl. Ring Road Utara, Condong Catur, Sleman, Yogyakarta</p>
+            <ul class="kontak">
+              <h4>Kontak: </h4>
+              <li>(0274) 884201 - 207</li>
+              <li>(0274) 884208 </li>
+              <li>Kodepos: 55283 </li>
+              <li>amikom@amikom.ac.id</li>
+            </ul>
+          </div>
+          
+          <div class="col-md-3">
+            <ul>
+              <h4>Konsentrasi: </h4>
+              <li><a href="../konsentrasi/web development/web_development.html" style="text-decoration:none; color: inherit;"> Web Development </a></li>
+              <li><a href="../konsentrasi/networking/networking.html" style="text-decoration:none; color: inherit;"> Networking </a></li>
+              <li><a href="../konsentrasi/animasi/animasi.html" style="text-decoration:none; color: inherit;"> 2D Animation </a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <ul>
+              <h4>Akademik: </h4>
+              <li><a href="../pendaftaran/pendaftaran.html" style="text-decoration:none; color: inherit;"> Info Pendaftaran </a></li>
+              <li><a href="../organisasi/organisasi.html" style="text-decoration:none; color: inherit;"> Organisasi </a></li>
+              <li><a href="../profil/deskripsi_prodi/deskripsi_prodi.html" style="text-decoration:none; color: inherit;"> Deskripsi Prodi </a></li>
+              <li><a href="../info_lainnya/kurikulum/kurikulum.html" style="text-decoration:none; color: inherit;"> Kurikulum </a></li>
+              <li><a href="../info_lainnya/krs/krs.html" style="text-decoration:none; color: inherit;"> KRS </a></li>
+              <li><a href="../award/award.html" style="text-decoration:none; color: inherit;">Award </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <hr>
+            <h6 class="pb-5"style="color: whitesmoke;"> &copy; 2022 UNIVERSITAS AMIKOM YOGYAKARTA</h6>
+          </div>
+        </div>
+      </div>
+      </footer>
+<!-- /footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
