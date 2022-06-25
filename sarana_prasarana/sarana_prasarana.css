@@ -1,0 +1,13 @@
+/*navbar*/
+.nav:hover {
+  background-color: #6b21a8;
+  transition: all ease-in-out 0.25s;
+  border-radius: 10px;
+}
+/*/navbar*/
+
+.accordion-button:hover {
+  background-color: #6b21a8;
+  color: aliceblue;
+  border-radius: 20px;
+}

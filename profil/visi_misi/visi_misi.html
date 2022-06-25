@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="visi_misi.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -75,27 +76,25 @@
 
     <!-- isi -->
     <section>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#6b21a8"
-          fill-opacity="1"
-          d="M0,160L48,160C96,160,192,160,288,186.7C384,213,480,267,576,245.3C672,224,768,128,864,117.3C960,107,1056,181,1152,213.3C1248,245,1344,235,1392,229.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-        ></path>
-      </svg>
-      <div class="container">
-        <h1 class="text-center">VISI & MISI</h1>
-        <div class="row">
-          <div class="col">
-            <div class="card mb-3" style="width: 50rem">
+      <div class="container pt-5 mt-5">
+        <h1 class="text-center" style="color: #7f2eae">VISI & MISI</h1>
+        <hr />
+        <div class="row pt-5">
+          <h3 style="color: #7f2eae">VISI</h3>
+          <div class="col-md-10 offset-1">
+            <div class="card mb-3 text-center border-warning" style="width: 70%" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="fade-left">
               <div class="card-body">
                 <h5 class="card-title">Visi D3 Teknik Informatika</h5>
                 <p class="card-text"><i>"Tahun 2030 Menjadi Program Studi Teknik Informatika Kelas Dunia yang Unggul dalam Bidang Web Development, Networking, dan 2D Animation yang berbasis enterpreneurship"</i></p>
               </div>
             </div>
           </div>
+          <hr />
+          <br />
           <div class="row">
-            <div class="col">
-              <div class="card mb-3" style="width: 30rem">
+            <h3 style="color: #7f2eae">MISI</h3>
+            <div class="col-md-6 offset-3">
+              <div class="card mb-3 border-warning" style="width: 80%" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="fade-left">
                 <div class="card-body">
                   <h5 class="card-title">Misi D3 Teknik Informatika</h5>
                   <p class="card-text">
@@ -122,13 +121,46 @@
                   <p class="card-text">
                     <i
                       ><ol>
-                        2. Unggul dalam pengabdian masyarakat
+                        4. Unggul dalam pengabdian masyarakat
                       </ol></i
                     >
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="col">
+            <h6>1. Unggul dalam manajemen dan pelayanan</h6>
+            <ul>
+              <li>Melaksanakan kegiatan layanan administrasi yang profesional</li>
+              <li>Menggunakan kontrol kualitas jaminan mutu untuk memastikan bahwa pelaksanaan Tri Darma perguruan tinggi sudah berjalan secara benar dan profesional</li>
+            </ul>
+            <br />
+            <h6>2. Unggul dalam bidang pendidikan</h6>
+            <ul>
+              <li>Melaksanakan dan mengembangkan pendidikan tinggi yang berkualitas, produktif dan profesional.</li>
+              <li>Membangun suasana akademik yang kondusif untuk mendukung proses belajar mengajar, pembinaan individu, dan pengembangan karakter.</li>
+              <li>Mendorong upaya peningkatan kualitas sumber daya manusia (mahasiswa, dosen dan karyawan) melalui pendidikan berkelanjutan, agar berwawasan luas, memiliki perspektif global, dan pemahaman kondisi lingkungan yang benar.</li>
+              <li>Meningkatkan pemahaman dalam pemanfaatan Teknologi Informasi dan penguasaan dibidang Teknik Informatika, khususnya dalam bidang Web Development, Computer Network & 2D Animation.</li>
+            </ul>
+            <br />
+            <h6>3. Unggul dalam penelitian</h6>
+            <ul>
+              <li>Melaksanakan penelitian dalam rangka pengembangan ilmu pengetahuan</li>
+              <li>Mendorong tumbuhnya kreatifitas untuk menghasilkan karya-karya dibidang teknologi informasi, khususnya dalam bidang Web Development, Computer Network & 2D Animation, yang bermanfaat bagi kehidupan masyarakat</li>
+              <li>Mendapatkan pengakuan nasional dan internasional dalam bidang penelitian dengan menghasilkan karya baru yang sesuai konsentrasi di bidang Web Development, Computer Network & 2D Animation atau interdisiplin ilmu.</li>
+            </ul>
+            <br />
+            <h6>4. Unggul dalam pengabdian masyarakat</h6>
+            <ul>
+              <li>Melaksanakan pengabdian kepada masyarakat.</li>
+              <li>Melaksanakan pembinaan sivitas akademika dan mendorong terciptanya hubungan yang erat dan baik dengan lingkungan.</li>
+              <li>Menerapkan keahlian dibidang Teknik Informatika untuk menghasilkan aplikasi yang bermanfaat, mudah digunakan dan dinikmati oleh masyarakat IT & masyarakat umum.</li>
+              <li>
+                Menyediakan SDM berkualitas tinggi yang memiliki keterampilan dalam bidang pengembangan Web Development, Computer Network & 2D Animation, serta mampu menghasilkan karya-karya baru dibidang Teknik Informatika, dan tetap
+                konsisten mengupayakan peningkatan kesejahteraan masyarakat.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -189,5 +221,9 @@
     </footer>
     <!-- /footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
