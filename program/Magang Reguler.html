@@ -2,75 +2,74 @@
   <head>
     <link rel="icon" href="image/logo_amikom_full_color.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="program.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D3 Teknik Informatika</title>
   </head>
-  <body style="background-color: grey;">
+  <body style="background-color: grey">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right,#7c0cfc,#ca1ff5)">
       <div class="container-fluid">
         <img src="image/logo_amikom_satu_warna.png" alt="" height="30px" width="auto" class="ps-3" />
-        <a class="navbar-brand ps-2" href="#"><strong>AMIKOM</strong></a>
+        <a class="navbar-brand ps-2" href="#"><b>AMIKOM</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item nav">
-              <a class="nav-link active text-light" aria-current="page" href="../../index.html">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="../../home/home.html">Home</a>
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
               <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="../../profil/sejarah/sejarah.html">Sejarah</a></li>
-                <li><a class="dropdown-item" href="../../profil/visi_misi/visi_misi.html">Visi & Misi</a></li>
-                <li><a class="dropdown-item" href="../../profil/deskripsi_prodi/deskripsi_prodi.html">Deskripsi Prodi</a></li>
-                <li><a class="dropdown-item" href="../../profil/contact_prodi/contact_prodi.html">Contact Prodi</a></li>
-                <li><a class="dropdown-item" href="../../profil/pengelola_prodi/pengelola_prodi.html">Pengelola Prodi</a></li>
-                <li><a class="dropdown-item" href="../../profil/kompetensi/kompetensi.html">Kompetensi Lulusan</a></li>
+                <li><a class="dropdown-item" href="../profil/sejarah/sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item" href="../profil/visi_misi/visi_misi.html">Visi & Misi</a></li>
+                <li><a class="dropdown-item" href="../profil/deskripsi_prodi/deskripsi_prodi.html">Deskripsi Prodi</a></li>
+                <li><a class="dropdown-item" href="../profil/contact_prodi/contact_prodi.html">Contact Prodi</a></li>
+                <li><a class="dropdown-item" href="../profil/pengelola_prodi/pengelola_prodi.html">Pengelola Prodi</a></li>
+                <li><a class="dropdown-item" href="../profil/kompetensi/kompetensi.html">Kompetensi Lulusan</a></li>
               </ul>
             </li>
             <li class="nav-item nav">
-              <a class="nav-link text-light" href="../../organisasi/organisasi.html">Organisasi</a>
+              <a class="nav-link text-light" href="../organisasi/organisasi.html">Organisasi</a>
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Konsentrasi </a>
               <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="../web development/web_development.html">Web Development </a></li>
-                <li><a class="dropdown-item" href="../networking/networking.html">Networking </a></li>
-                <li><a class="dropdown-item" href="animasi.html">2D Animation </a></li>
-              </ul>
-            </li>
-            <li class="nav-item nav">
-              <a class="nav-link text-light" href="../../award/award.html">Award</a>
-            </li>
-            <li class="nav-item nav">
-              <a class="nav-link text-light" href="../../sarana_prasarana/sarana_prasarana.html">Sarana & Prasarana</a>
-            </li>
-            <li class="nav-item nav">
-              <a class="nav-link text-light" href="../../pendaftaran/pendaftaran.html">Pendaftaran</a>
-            </li>
-            <li class="nav-item dropdown nav">
-              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="../../program/Magang Reguler.html">Magang Reguler</a></li>
-                <li><a class="dropdown-item" href="../../program/Magang MBKM.html">Magang MBKM</a></li>
-                <li><a class="dropdown-item" href="../../program/TA Non Reguler.html"> TA Non Reguler</a></li>
-                <li><a class="dropdown-item" href="../../program/TA Reguler.html"> TA Reguler</a></li>
+                <li><a class="dropdown-item" href="../konsentrasi/web development/web_development.html">Web Development </a></li>
+                <li><a class="dropdown-item" href="../konsentrasi/networking/networking.html">Networking </a></li>
+                <li><a class="dropdown-item" href="../konsentrasi/animasi/animasi.html">2D Animation </a></li>
               </ul>
             </li>
             <li class="nav-item dropdown nav">
-              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info lainnya </a>
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
+                <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="Magang Reguler.html">Magang Reguler </a></li>
+                  <li><a class="dropdown-item" href="Magang MBKM.html">Magang MBKM </a></li>
+                  <li><a class="dropdown-item" href="TA Non Reguler.html">TA Non Reguler </a></li>
+                  <li><a class="dropdown-item" href="TA Reguler.html">TA Reguler </a></li>
+                  
+                </ul>
+              </li>
+            <li class="nav-item nav">
+              <a class="nav-link text-light" href="../award/award.html">Award</a>
+            </li>
+            <li class="nav-item nav">
+              <a class="nav-link text-light" href="../sarana_prasarana/sarana_prasarana.html">Sarana & Prasarana</a>
+            </li>
+            <li class="nav-item nav">
+              <a class="nav-link text-light" href="../pendaftaran/pendaftaran.html">Pendaftaran</a>
+            </li>
+            <li class="nav-item dropdown nav">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info Lainnya </a>
               <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="../../info_lainnya/dosen/dosen.html">Dosen</a></li>
-                <li><a class="dropdown-item" href="../../info_lainnya/kurikulum/kurikulum.html">Kurikulum</a></li>
-                <li><a class="dropdown-item" href="../../info_lainnya/krs/krs.html">KRS</a></li>
-                <li><a class="dropdown-item" href="../../info_lainnya/info_beasiswa/info_beasiswa.html">Informasi Beasiswa</a></li>
+                <li><a class="dropdown-item" href="../info_lainnya/dosen/dosen.html">Dosen</a></li>
+                <li><a class="dropdown-item" href="../info_lainnya/kurikulum/kurikulum.html">Kurikulum</a></li>
+                <li><a class="dropdown-item" href="../info_lainnya/krs/krs.html">KRS</a></li>
               </ul>
             </li>
           </ul>
@@ -80,31 +79,33 @@
     <!-- /navbar -->
 
     <!-- isi -->
-    <section class="pb-5">
-      <div class="container">
-        <div class="row pt-5 mt-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-          <div class="col-md-6 text-center" style="padding-top: 8rem">
-            <img src="../image/animasi.jpg" alt="" width="80%" />
-          </div>
-          <div class="col-md-6">
-            <h1 class="text-center" style="color: #7f2eae">Animasi 2D</h1>
-            <p class="text-center">(Artis Animasi, Pembuat Film Animasi 2D & 3D, Script Writer Animation Movie)</p>
-            <p>
-              Mampu membuat aplikasi sistem informasi berbasis web, mampu mengembangkan dan mengelola aplikasi e-business dan e-commerce, mampu mendapakan provit dari aplikasi web yang dikembangkan, serta publikasi informasi yang benar di
-              internet.
-            </p>
-            <p>
-              Profesi: •Animator (artist)<br />
-              •Concept Art (artist)<br />
-              •Produser<br />
-              •Animation Project Manager<br />
-              •Script Writer / Screenplayer / Storyboarder<br />
-              •Unit Manager<br />
-              •Art Enterpreneur<br />
-              •Etc.
-            </p>
-          </div>
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <h1 class=" pt-5 text-center" style="color: #5b26ab">Magang Reguler</h1>
+          <p>Dokumen Pendukung Magang</p>
+          <p>Note: Silahkan pelajari dokumen magang berikut, jika ada yang ditanyakan dapat menghubungi pembimbing magang masing-masing.</p>
+          <p> <a href="https://blogarch.amikom.ac.id/2021/0807/20210807073224.pdf" style="text-decoration: #5b26ab; color:#5b26ab;">Alur Proses Magang </a></p>
+          <a> <a href="https://blogarch.amikom.ac.id/2021/0813/20210813134143.pdf" style="text-decoration: #5b26ab; color:#5b26ab;">Pedoman Magang </a></p>
+          <p> <a href="file/20220226115614.docx" style="text-decoration: #5b26ab; color:#5b26ab;">Template Laporan Magang </a></p>
+          <p> <a href="https://docs.google.com/document/d/1ndB2xxw2QDyZF4SVAubf5zNAJCoOepWf/view" style="text-decoration: #5b26ab; color:#5b26ab;">Template Proposal Magang </a></p>
         </div>
+        <h3 style="text-align: center;">&nbsp;<strong>Status Pengajuan Proposal Magang Reguler</strong></h3>
+<p><iframe src="https://docs.google.com/spreadsheets/d/1QgdHlPq9TI0CWyz4sN97Gtotzl4Bzx6ZMO04mFq0KjA/edit?usp=sharing" width="100%" height="500"></iframe></p>            </div>
+        </article>
+    </div>
+</main>    <footer class="site-footer">
+    <div class="site-container">
+        <div class="site-footer-inner">
+            <div class="site-footer-brand">
+                <div class="footer-logo">
+                    <a href="https://amikom.ac.id">
+                        <img loading="lazy" src="https://d3ti.amikom.ac.id/assets/themes/tailwind03/images/logo-brand.png" alt="logo_footer">
+                    </a>
+                </div>
+               
+            </div>
+
       </div>
     </section>
     <!-- /isi -->
@@ -124,7 +125,7 @@
               <p></p><i class="bi bi-envelope-fill pe-2"></i> amikom@amikom.ac.id 
             </ul>
           </div>
-
+    
           <div class="col-md-4">
             <ul>
               <h4>Konsentrasi:</h4>
@@ -143,7 +144,7 @@
               <li  style="list-style: none;"><a href="../../info_lainnya/krs/krs.html" style="text-decoration: none; color: inherit"> KRS </a></li>
               <li  style="list-style: none;"><a href="../../award/award.html" style="text-decoration: none; color: inherit">Award </a></li>
             </ul>
-
+    
             </div>
             <div class="col-md-4 embed-responsive embed-responsive-16by9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.281890306905!2d110.40685741385752!3d-7.759899579104705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a599bd3bdc4ef%3A0x6f1714b0c4544586!2sUniversity%20of%20Amikom%20Yogyakarta!5e0!3m2!1sen!2sid!4v1656740815665!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -159,9 +160,5 @@
     </footer>
     <!-- /footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>

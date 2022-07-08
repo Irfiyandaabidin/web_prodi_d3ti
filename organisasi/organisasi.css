@@ -1,6 +1,40 @@
+body {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+section {
+  height: 100vh;
+}
+.container {
+  padding-top: 5cm;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.gambar {
+  margin-left: 1cm;
+  justify-content: center;
+}
+.container .tulisan {
+  padding-top: 2.5cm;
+  color: #fff;
+}
+.judul {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 2cm;
+}
+.row {
+  color: #fff;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+.text-justify {
+  text-align: justify;
+  color: #fff;
+}
+
 /*navbar*/
 .nav:hover {
-  background-color: #6b21a8;
+  background-color: #f59e0b;
   transition: all ease-in-out 0.25s;
   border-radius: 10px;
 }
@@ -11,5 +45,7 @@
   transition: all ease-in-out 0.25s;
   border-radius: 10px;
 }
+
+/*/navbar*/
 
 /*/navbar*/

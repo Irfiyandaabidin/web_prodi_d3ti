@@ -2,16 +2,17 @@
   <head>
     <link rel="icon" href="image/logo_amikom_full_color.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="sejarah.css" />
+    <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D3 Teknik Informatika</title>
   </head>
-  <body>
+  <body style="background-color: grey;">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right, #fcd50c, #f5911f)">
+    <nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right,#7c0cfc,#ca1ff5)">
       <div class="container-fluid">
         <img src="image/logo_amikom_satu_warna.png" alt="" height="30px" width="auto" class="ps-3" />
         <a class="navbar-brand ps-2" href="#"><strong>AMIKOM</strong></a>
@@ -57,10 +58,10 @@
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
               <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="../../program/magang_reguler/magang_reguler.html">Magang Reguler</a></li>
-                <li><a class="dropdown-item" href="../../program/magang_mbkm/magang_mbkm.html">Magang MBKM</a></li>
-                <li><a class="dropdown-item" href="../../program/ta_non/ta_non.html"> TA Non Reguler</a></li>
-                <li><a class="dropdown-item" href="../../program/ta_reguler/ta_reguler.html"> TA Reguler</a></li>
+                <li><a class="dropdown-item" href="../../program/Magang Reguler.html">Magang Reguler</a></li>
+                <li><a class="dropdown-item" href="../../program/Magang MBKM.html">Magang MBKM</a></li>
+                <li><a class="dropdown-item" href="../../program/TA Non Reguler.html"> TA Non Reguler</a></li>
+                <li><a class="dropdown-item" href="../../program/TA Reguler.html"> TA Reguler</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown nav">
@@ -79,13 +80,13 @@
     <!-- /navbar -->
 
     <!-- isi -->
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <h1 class="text-center" style="padding-top: 3cm; color: #6b21a8">KOMPETENSI LULUSAN</h1>
         <div class="col-md-6 pt-3">
           <div class="card shadow" style="width: 100%">
             <div class="card-body">
-              <h5 class="card-title text-center">Soft Skill</h5>
+              <h5 class="card-title">Soft Skill</h5>
               <div class="text-start">
                 <p class="card-text">1. memiliki integritas tinggi,</p>
                 <p class="card-text">2. memiliki skill teknis yang memadai sesuai bidang keahlian,</p>
@@ -103,7 +104,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 pt-5">
+        <div class="col-md-6 pt-5" data-aos="fade-up" data-aos-duration="2000">
           <div class="card shadow" style="width: 100%">
             <div class="card-body">
               <h5 class="card-title text-center">Hard Skill</h5>
@@ -122,54 +123,43 @@
     </div>
     <!-- /isi -->
     <!-- footer -->
-    <footer style="background-image: linear-gradient(to bottom right, #5b26ab, #7d1e88)">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,224L40,208C80,192,160,160,240,144C320,128,400,128,480,149.3C560,171,640,213,720,197.3C800,181,880,107,960,101.3C1040,96,1120,160,1200,160C1280,160,1360,96,1400,64L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
-        ></path>
-      </svg>
-      <div class="container">
-        <div class="row justify-content-around" style="color: whitesmoke">
-          <div class="col-md-3">
+    <footer style="background-image: linear-gradient(to bottom right ,#5b26ab, #7d1e88); border-top: solid #f5911f;">
+      <div class="container pt-5">
+        <div class="row justify-content-around" style="color: whitesmoke;">
+          <div class="col-md-4">
             <img src="image/logo-amikom-putih.png" alt="logo-amikom-putih" style="height: 80px; width: auto" class="ps-4 pb-4" />
             <p class="ps-4"><i class="bi bi-pin-map pe-2"></i>Alamat Kampus: Jl. Ring Road Utara, Condong Catur, Sleman, Yogyakarta</p>
             <ul class="kontak">
               <h4>Kontak:</h4>
-              <i class="bi bi-telephone-fill pe-2"></i
-              >(0274) 884201 - 207
-              <p></p>
-              <i class="bi bi-telephone-fill pe-2"></i
-              >(0274) 884208
-              <p></p>
-              <i class="bi bi-mailbox2 pe-2"></i
-              >Kodepos: 55283
-              <p></p>
-              <i class="bi bi-envelope-fill pe-2"></i>
-              amikom@amikom.ac.id
+              <i class="bi bi-telephone-fill pe-2"></i>(0274) 884201 - 207
+              <p></p><i class="bi bi-telephone-fill pe-2"></i>(0274) 884208
+              <p></p><i class="bi bi-mailbox2 pe-2"></i>Kodepos: 55283
+              <p></p><i class="bi bi-envelope-fill pe-2"></i> amikom@amikom.ac.id 
             </ul>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-4">
             <ul>
               <h4>Konsentrasi:</h4>
-              <li><a href="../../konsentrasi/web development/web_development.html" style="text-decoration: none; color: inherit"> Web Development </a></li>
-              <li><a href="../../konsentrasi/networking/networking.html" style="text-decoration: none; color: inherit"> Networking </a></li>
-              <li><a href="../../konsentrasi/animasi/animasi.html" style="text-decoration: none; color: inherit"> 2D Animation </a></li>
+              <li  style="list-style: none;"><a href="../../konsentrasi/web development/web_development.html" style="text-decoration: none; color: inherit"> Web Development </a></li>
+              <li  style="list-style: none;"><a href="../../konsentrasi/networking/networking.html" style="text-decoration: none; color: inherit"> Networking </a></li>
+              <li  style="list-style: none;"><a href="../../konsentrasi/animasi/animasi.html" style="text-decoration: none; color: inherit"> 2D Animation </a></li>
             </ul>
-          </div>
-
-          <div class="col-md-3">
+         
             <ul>
+              <hr>
               <h4>Akademik:</h4>
-              <li><a href="../../pendaftaran/pendaftaran.html" style="text-decoration: none; color: inherit"> Info Pendaftaran </a></li>
-              <li><a href="../../organisasi/organisasi.html" style="text-decoration: none; color: inherit"> Organisasi </a></li>
-              <li><a href="../../profil/deskripsi_prodi/deskripsi_prodi.html" style="text-decoration: none; color: inherit"> Deskripsi Prodi </a></li>
-              <li><a href="../../info_lainnya/kurikulum/kurikulum.html" style="text-decoration: none; color: inherit"> Kurikulum </a></li>
-              <li><a href="../../info_lainnya/krs/krs.html" style="text-decoration: none; color: inherit"> KRS </a></li>
-              <li><a href="../../award/award.html" style="text-decoration: none; color: inherit">Award </a></li>
+              <li  style="list-style: none;"><a href="../../pendaftaran/pendaftaran.html" style="text-decoration: none; color: inherit"> Info Pendaftaran </a></li>
+              <li  style="list-style: none;"><a href="../../organisasi/organisasi.html" style="text-decoration: none; color: inherit"> Organisasi </a></li>
+              <li  style="list-style: none;"><a href="../../profil/deskripsi_prodi/deskripsi_prodi.html" style="text-decoration: none; color: inherit"> Deskripsi Prodi </a></li>
+              <li  style="list-style: none;"><a href="../../info_lainnya/kurikulum/kurikulum.html" style="text-decoration: none; color: inherit"> Kurikulum </a></li>
+              <li  style="list-style: none;"><a href="../../info_lainnya/krs/krs.html" style="text-decoration: none; color: inherit"> KRS </a></li>
+              <li  style="list-style: none;"><a href="../../award/award.html" style="text-decoration: none; color: inherit">Award </a></li>
             </ul>
+
+            </div>
+            <div class="col-md-4 embed-responsive embed-responsive-16by9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.281890306905!2d110.40685741385752!3d-7.759899579104705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a599bd3bdc4ef%3A0x6f1714b0c4544586!2sUniversity%20of%20Amikom%20Yogyakarta!5e0!3m2!1sen!2sid!4v1656740815665!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -182,5 +172,11 @@
     </footer>
     <!-- /footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
   </body>
 </html>

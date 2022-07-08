@@ -1,22 +1,18 @@
-#home {
-  background-image: url(image/gedung_amikom1.png);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(gedung-panjang.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
-.text-oren {
-  color: orange;
-}
-
-.selamat_datang {
-  display: flex;
-}
-.di_website {
-  display: flex;
-}
 .nav:hover {
-  background-color: #6b21a8;
+  background-color: #f59e0b;
   transition: all ease-in-out 0.25s;
   border-radius: 10px;
 }
