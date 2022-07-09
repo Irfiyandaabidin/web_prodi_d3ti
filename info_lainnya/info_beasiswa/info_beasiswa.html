@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D3 Teknik Informatika</title>
   </head>
-  <body style="background-color:grey">
+  <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right,#7c0cfc,#ca1ff5)">
       <div class="container-fluid">
@@ -26,7 +26,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../../profil/sejarah/sejarah.html">Sejarah</a></li>
                 <li><a class="dropdown-item" href="../../profil/visi_misi/visi_misi.html">Visi & Misi</a></li>
                 <li><a class="dropdown-item" href="../../profil/deskripsi_prodi/deskripsi_prodi.html">Deskripsi Prodi</a></li>
@@ -40,7 +40,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Konsentrasi </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../../konsentrasi/web development/web_development.html">Web Development </a></li>
                 <li><a class="dropdown-item" href="../../konsentrasi/networking/networking.html">Networking </a></li>
                 <li><a class="dropdown-item" href="../../konsentrasi/animasi/animasi.html">2D Animation </a></li>
@@ -57,7 +57,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../../program/Magang Reguler.html">Magang Reguler</a></li>
                 <li><a class="dropdown-item" href="../../program/Magang MBKM.html">Magang MBKM</a></li>
                 <li><a class="dropdown-item" href="../../program/TA Non Reguler.html"> TA Non Reguler</a></li>
@@ -66,12 +66,15 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info lainnya </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../dosen/dosen.html">Dosen</a></li>
                 <li><a class="dropdown-item" href="../kurikulum/kurikulum.html">Kurikulum</a></li>
                 <li><a class="dropdown-item" href="../krs/krs.html">KRS</a></li>
                 <li><a class="dropdown-item" href="info_beasiswa.html">Informasi Beasiswa</a></li>
               </ul>
+            </li>
+            <li class="nav-item nav">
+              <img src="image/moon.png" alt="" onclick="myFunction()" style="width: 50px;">
             </li>
           </ul>
         </div>
@@ -85,8 +88,8 @@
         <div class="row">
           <h1 style="color: #5b26ab" class="text-center pb-5">Informasi Beasiswa Amikom</h1>
           <div class="col">
-            <h3 style="color:white">1. KARTU INDONESIA PINTAR (KIP)</h3>
-            <p style="color:white">
+            <h3>1. KARTU INDONESIA PINTAR (KIP)</h3>
+            <p>
               Beasiswa ini bersumber dari Pemerintah dan Universitas Amikom yang terdiri dari Komponen Uang Kuliah Tunggal (UKT), Biaya Hidup Rp. 1.100.000,– per bulan , Biaya Sarana, Subsidi Biaya SPP Tetap dan Variabel. Biaya Hidup
               diberikan oleh pemerintah langsung ke rekening penerima beasiswa, UKT sebesar Rp 2.400.000,- (Prodi Akreditasi C) dan Sebesar Rp 4.000.000,-(Prodi Akreditasi B), dan sebesar Rp 12.000.000,- (Prodi akreditasi A). Setiap
               semester dibayarkan pemerintah langsung kepada Universitas Amikom Yogyakarta. Biaya sarana, selisih biaya SPP tetap dan Variabel diberikan oleh Universitas Amikom selama mahasiswa yang bersangkutan memenuhi yang dipersyaratkan
@@ -94,11 +97,11 @@
               <ul>
                 <li><a href="https://kip-kuliah.kemdikbud.go.id/" style="color:#5b26ab; text-decoration: none;"> https://kip-kuliah.kemdikbud.go.id/ </a></li>
                 <li> <a href="https://kemahasiswaan.amikom.ac.id/index.php/main/page/1511/pengumuman-informasi-beasiswa-kip-k-2022" style="color:#5b26ab; text-decoration: none;"> Informasi lengkap beasiswa KIP untuk calon mahasiswa baru 2022 ( Pada website Direktorat Kemahasiswaan ) </a></li>
-                <li style="color: white;">Surat Pernyataan dapat diunduh <a href="https://kemahasiswaan.amikom.ac.id/media/43/Surat_Pernyataan_kip.docx" style="color:#5b26ab; text-decoration: none;"> Disini</a></li>
+                <li">Surat Pernyataan dapat diunduh <a href="https://kemahasiswaan.amikom.ac.id/media/43/Surat_Pernyataan_kip.docx" style="color:#5b26ab; text-decoration: none;"> Disini</a></li>
               </ul>
             </p>
-            <h6 style="color: white;">Syarat Umum untuk no 2-5:</h6>
-            <ul style="color: white;">
+            <h6>Syarat Umum untuk no 2-5:</h6>
+            <ul>
               <li>Bukti Penghasilan orang tua, bagi pegawai dibuktikan dengan slip gaji, non pegawai dibuktikan dengan pernyataan diketahui oleh ketua RT/RW, kartu keluarga</li>
               <li>Dinyatatakan lulus di Universitas Amikom Yogyakarta</li>
               <li>Nilai UTBK (jika memiliki)</li>
@@ -113,7 +116,7 @@
 
       <div class="container-flex pt-3"  style="background-image: linear-gradient(#5b26ab, #7d1e88)">
       <div class="container">
-        <div class="col" style="color:white">
+        <div>
         <h3>2. PRESTASI AKADEMIK</h3>
         <p>Beasiswa diberikan kepada calon mahasiswa baru yang memiliki prestasi akademik, dengan ditunjukkan bukti prestasi akademik di sekolah atau lomba bidang akademik pada tingkat kecamatan, kabupaten, provinsi, nasional atau internasional. Lomba yang dimaksud adalah lomba yang dilaksanakan secara berjenjang dan diselenggarakan oleh organisasi pemerintah atau swasta. Besaran beasiswa 30% – 100% dari Biaya Sarana  dan SPP tetap selama 4 semester yang harus dibayarkan  dan diberikan dalam bentuk voucher (bukan uang).
           <br>
@@ -127,8 +130,8 @@
     </div>
 
     <div class="container pt-3">
-      <h3 style="color:white">3. PRESTASI OLAHRAGA</h3>
-      <p style="color:white">Beasiswa diberikan kepada calon mahasiswa baru yang memiliki prestasi olah raga, dengan ditunjukkan bukti prestasi olah raga di sekolah atau lomba bidang olah raga pada tingkat kecamatan, kabupaten, provinsi, nasional atau internasional. Lomba yang dimaksud adalah lomba yang dilaksanakan secara berjenjang dan diselenggarakan oleh organisasi pemerintah atau swasta. Besaran beasiswa 30% – 100% dari Biaya Sarana  dan SPP tetap selama 4 semester yang harus dibayarkan  dan diberikan dalam bentuk voucher (bukan uang).
+      <h3>3. PRESTASI OLAHRAGA</h3>
+      <p>Beasiswa diberikan kepada calon mahasiswa baru yang memiliki prestasi olah raga, dengan ditunjukkan bukti prestasi olah raga di sekolah atau lomba bidang olah raga pada tingkat kecamatan, kabupaten, provinsi, nasional atau internasional. Lomba yang dimaksud adalah lomba yang dilaksanakan secara berjenjang dan diselenggarakan oleh organisasi pemerintah atau swasta. Besaran beasiswa 30% – 100% dari Biaya Sarana  dan SPP tetap selama 4 semester yang harus dibayarkan  dan diberikan dalam bentuk voucher (bukan uang).
         <br>
       <b>Syarat khusus:</b> Bukti prestasi olah raga tingkat lokal/sekolah atau piagam lomba bidang olah raga, maksimal tiga tahun terakhir</p>
       <div class="banner d-flex justify-content-center">
@@ -139,7 +142,7 @@
 
     <div class="container-flex pt-3 pb-5"  style="background-image: linear-gradient(#5b26ab, #7d1e88)">
       <div class="container">
-        <div class="col" style="color:white">
+        <div>
         <h3>4. PRESTASI SENI BUDAYA</h3>
         <p>Beasiswa diberikan kepada calon mahasiswa baru yang memiliki prestasi seni dan budaya, dengan ditunjukkan bukti prestasi seni dan budaya di sekolah atau lomba bidang seni dan budaya pada tingkat kecamatan, kabupaten, provinsi, nasional atau internasional. Lomba yang dimaksud adalah lomba yang dilaksanakan secara berjenjang dan diselenggarakan oleh organisasi pemerintah atau swasta. Besaran beasiswa 30% – 100% dari Biaya Sarana  dan SPP tetap selama 4 semester yang harus dibayarkan  dan diberikan dalam bentuk voucher (bukan uang).
           <br>
@@ -150,8 +153,8 @@
       <br>
 
       <div class="container">
-        <h3 style="color:white">5. PEMIMPIN MUDA</h3>
-        <p style="color:white">Beasiswa diberikan kepada calon mahasiswa baru yang memiliki prestasi kepemimpinan, dengan ditunjukkan bukti prestasi kepemimpinan di sekolah seperti organisasi siswa intra sekolah  atau lomba bidang kepemimpinan pada tingkat kecamatan, kabupaten, provinsi, nasional atau internasional. Lomba yang dimaksud adalah lomba yang dilaksanakan secara berjenjang dan diselenggarakan oleh organisasi pemerintah atau swasta. Besaran beasiswa 30% – 100% dari Biaya Sarana  dan SPP tetap selama 4 semester yang harus dibayarkan  dan diberikan dalam bentuk voucher (bukan uang).</p>
+        <h3>5. PEMIMPIN MUDA</h3>
+        <p>Beasiswa diberikan kepada calon mahasiswa baru yang memiliki prestasi kepemimpinan, dengan ditunjukkan bukti prestasi kepemimpinan di sekolah seperti organisasi siswa intra sekolah  atau lomba bidang kepemimpinan pada tingkat kecamatan, kabupaten, provinsi, nasional atau internasional. Lomba yang dimaksud adalah lomba yang dilaksanakan secara berjenjang dan diselenggarakan oleh organisasi pemerintah atau swasta. Besaran beasiswa 30% – 100% dari Biaya Sarana  dan SPP tetap selama 4 semester yang harus dibayarkan  dan diberikan dalam bentuk voucher (bukan uang).</p>
           <br>
         <div class="banner d-flex justify-content-center">
           <img src="image/banner_pemimpin_muda.jpg" alt="banner_prestasi_olahraga" style="width: 80%; border-radius:20px">
@@ -161,7 +164,7 @@
 
       <div class="container-flex pt-3"  style="background-image: linear-gradient(#5b26ab, #7d1e88)">
         <div class="container">
-          <div class="col" style="color:white">
+          <div>
           <h3>6. Beasiswa Pertukaran Mahasiswa Erasmus+</h3>
           <p>Erasmus + International Mobility program between the University of Murcia (Spain) and universitas Amikom Yogyakarta Beasiswa ini diberikan kepada mahasiswa Universitas Amikom program MTI untuk belajar selama 1 semester di Universitas Murcia Spanyol https://www.um.es/ Pendaftaran dan seleksi setiap tahun dilaksanakan di sekitar bulan Maret, akan diumumkan oleh Admisi MTI pada saat pendaftaran dibuka. <b> Syarat beasiswa : </b> </p>
           <ul>
@@ -236,6 +239,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+     <script>
+      function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
     </script>
   </body>
 </html>

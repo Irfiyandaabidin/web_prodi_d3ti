@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D3 Teknik Informatika</title>
   </head>
-  <body style="background-color: grey;">
+  <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right,#7c0cfc,#ca1ff5)">
       <div class="container-fluid">
@@ -26,7 +26,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../profil/sejarah/sejarah.html">Sejarah</a></li>
                 <li><a class="dropdown-item" href="../profil/visi_misi/visi_misi.html">Visi & Misi</a></li>
                 <li><a class="dropdown-item" href="../profil/deskripsi_prodi/deskripsi_prodi.html">Deskripsi Prodi</a></li>
@@ -40,7 +40,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Konsentrasi </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../konsentrasi/web development/web_development.html">Web Development </a></li>
                 <li><a class="dropdown-item" href="../konsentrasi/networking/networking.html">Networking </a></li>
                 <li><a class="dropdown-item" href="../konsentrasi/animasi/animasi.html">2D Animation </a></li>
@@ -57,7 +57,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../program/Magang Reguler.html">Magang Reguler</a></li>
                 <li><a class="dropdown-item" href="../program/Magang MBKM.html">Magang MBKM</a></li>
                 <li><a class="dropdown-item" href="../program/TA Non Reguler.html"> TA Non Reguler</a></li>
@@ -66,12 +66,15 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info lainnya </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../info_lainnya/dosen/dosen.html">Dosen</a></li>
                 <li><a class="dropdown-item" href="../info_lainnya/kurikulum/kurikulum.html">Kurikulum</a></li>
                 <li><a class="dropdown-item" href="../info_lainnya/krs/krs.html">KRS</a></li>
                 <li><a class="dropdown-item" href="../info_lainnya/info_beasiswa/info_beasiswa.html">Info Beasiswa</a></li>
               </ul>
+            </li>
+            <li class="nav-item nav">
+              <img src="image/moon.png" alt="" onclick="myFunction()" style="width: 50px;">
             </li>
           </ul>
         </div>
@@ -81,21 +84,20 @@
 
     <!-- isi -->
     <section>
-      
       <div class="container pt-5 mt-5">
         <div class="row">
           <h1 class="text-center pb-5" style="color: #7F2EAE">Prestasi</h1>
           <div class="col-md-6 pt-5" data-aos="fade-right" data-aos-duration="1500">
-            <h3 style="color: white;">Prestasi Mahasiwa 2021</h3>
-            <ul style="color: white;">
+            <h3>Prestasi Mahasiwa 2021</h3>
+            <ul>
               <li>Juara I kompetisi Bytefest</li>
             </ul>
-            <h3 style="color: white;">Overview</h3>
-            <p style="color: white">
+            <h3>Overview</h3>
+            <p>
               31 Oktober 2021 : Tim OSORA dari Universitas AMIKOM Yogyakarta meraih Juara 1 pada bidang Web Design Competition dengan membuat sebuah karya yang berjudul OSTELLAR, yakni sebuah design website e-learning mengenai dunia
               astronomi. Kunjungi ostellar.osorateam.com
             </p>
-            <p style="color: white">
+            <p>
               Platform edukasi bertemakan astronomi yang dikemas secara menarik, dengan tujuan memberikan banyak manfaat kepada siapa saja yang tertarik pada luar angkasa. Kami menghadirkan berbagai macam kategori materi mulai dari planet
               hingga segala hal yang berhubungan dengan luar angkasa. Kami berharap dengan adanya OSTELLAR dapat membuka wawasan mengenai bidang astronomi yang belum banyak diketahui.
             </p>
@@ -163,6 +165,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
     </script>
   </body>
 </html>

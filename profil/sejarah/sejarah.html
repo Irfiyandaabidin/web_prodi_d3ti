@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D3 Teknik Informatika</title>
   </head>
-  <body style="background-color: grey;">
+  <body>
     
 
 <!-- navbar -->
-    <nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right,#7c0cfc,#ca1ff5)"
+    <nav class="navbar navbar-expand-lg shadow-lg fixed-top p-3" style="background-image: linear-gradient(to bottom right,#7c0cfc,#ca1ff5)">
       <div class="container-fluid">
         <img src="image/logo_amikom_satu_warna.png" alt="" height="30px" width="auto" class="ps-3" />
         <a class="navbar-brand ps-2" href="#"><strong>AMIKOM</strong></a>
@@ -28,7 +28,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
                 <li><a class="dropdown-item" href="../visi_misi/visi_misi.html">Visi & Misi</a></li>
                 <li><a class="dropdown-item" href="../deskripsi_prodi/deskripsi_prodi.html">Deskripsi Prodi</a></li>
@@ -42,7 +42,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Konsentrasi </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../../konsentrasi/web development/web_development.html">Web Development </a></li>
                 <li><a class="dropdown-item" href="../../konsentrasi/networking/networking.html">Networking </a></li>
                 <li><a class="dropdown-item" href="../../konsentrasi/animasi/animasi.html">2D Animation </a></li>
@@ -59,7 +59,7 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../../program/Magang Reguler.html">Magang Reguler</a></li>
                 <li><a class="dropdown-item" href="../../program/Magang MBKM.html">Magang MBKM</a></li>
                 <li><a class="dropdown-item" href="../../program/TA Non Reguler.html"> TA Non Reguler</a></li>
@@ -68,12 +68,15 @@
             </li>
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info lainnya </a>
-              <ul class="dropdown-menu bg-warning opacity-75" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../../info_lainnya/dosen/dosen.html">Dosen</a></li>
                 <li><a class="dropdown-item" href="../../info_lainnya/kurikulum/kurikulum.html">Kurikulum</a></li>
                 <li><a class="dropdown-item" href="../../info_lainnya/krs/krs.html">KRS</a></li>
                 <li><a class="dropdown-item" href="../../info_lainnya/info_beasiswa/info_beasiswa.html">Informasi Beasiswa</a></li>
               </ul>
+            </li>
+            <li class="nav-item nav">
+              <img src="image/moon.png" alt="" onclick="myFunction()" style="width: 50px" />
             </li>
           </ul>
         </div>
@@ -167,5 +170,11 @@
     <script>
       AOS.init();
     </script>
+        <script>
+          function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+          }
+        </script>
   </body>
 </html>

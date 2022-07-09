@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> D3 Teknik Informatika</title>
   </head>
-  <body style="background-color: grey;">
+  <body>
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg shadow-lg p-3" style="background-image: linear-gradient(to bottom right ,#7c0cfc,#ca1ff5);">
       <div class="container-fluid">
@@ -59,10 +59,10 @@
             <li class="nav-item dropdown nav">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
               <ul class="dropdown-menu"  style="background-color:#f5911f" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="program/magang_reguler/magang_reguler.html">Magang Reguler</a></li>
-                <li><a class="dropdown-item" href="program/magang_mbkm/magang_mbkm.html">Magang MBKM</a></li>
-                <li><a class="dropdown-item" href="program/ta_non/ta_non.html"> TA Non Reguler</a></li>
-                <li><a class="dropdown-item" href="program/ta_reguler/ta_reguler.html"> TA Reguler</a></li>
+                <li><a class="dropdown-item" href="program/Magang Reguler.html">Magang Reguler</a></li>
+                <li><a class="dropdown-item" href="program/Magang MBKM.html">Magang MBKM</a></li>
+                <li><a class="dropdown-item" href="program/TA Non Reguler.html"> TA Non Reguler</a></li>
+                <li><a class="dropdown-item" href="program/TA Reguler.html"> TA Reguler</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown nav">
@@ -73,6 +73,9 @@
                 <li><a class="dropdown-item" href="info_lainnya/krs/krs.html">KRS</a></li>
                 <li><a class="dropdown-item" href="info_lainnya/info_beasiswa/info_beasiswa.html">Informasi Beasiswa</a></li>
               </ul>
+            </li>
+            <li class="nav-item nav">
+              <img src="image/moon.png" alt="" onclick="myFunction()" style="width: 50px;">
             </li>
           </ul>
         </div>
@@ -116,8 +119,8 @@
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="fade-left">
               <h3>10 Alasan Kenapa Harus Mengambil Prodi D3 Teknik Informatika</h3>
               <hr>
-              <ul>
-                <li>Biaya lebih hemat</li>
+              <ul style="list-style-image: url(image/icon_ceklist.png);">
+                <li >Biaya lebih hemat</li>
                 <li>Lebih cepat lulus</li>
                 <li>SKS lebih sedikit</li>
                 <li>Tidak ada skripsi</li>
@@ -186,6 +189,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
     </script>
   </body>
 </html>
