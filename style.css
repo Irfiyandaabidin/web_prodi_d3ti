@@ -39,3 +39,143 @@
   background-color: blueviolet !important;
   border-radius: 5px;
 }
+
+/* Konsentrasi */
+
+.card {
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+}
+.container .card .gambar {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card .gambar img {
+  width: 200px;
+}
+.container .card:nth-child(1) .tulisan a {
+  display: inline;
+}
+.container .card .tulisan a {
+  text-decoration: none;
+  color: rgb(123, 36, 199);
+}
+
+.card:hover {
+  transform: scale(1.025);
+}
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+  }
+
+  .card {
+    width: 500px;
+    height: 300px;
+  }
+
+  .container .card .gambar img {
+    width: 160px;
+  }
+  .container .card .gambar {
+    height: 145px;
+  }
+  .container .card .tulisan {
+    font-size: 15px;
+  }
+}
+@media (min-width: 769px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+  }
+  .container .card:nth-child(1) .tulisan a {
+    display: inline;
+  }
+  .card {
+    width: 30%;
+    height: 250px;
+  }
+  .container .card .gambar img {
+    width: 100px;
+  }
+  .container .card .gambar {
+    height: 100px;
+  }
+  .container .card .tulisan {
+    font-size: 15px;
+  }
+}
+@media (max-width: 426px) {
+  .container {
+    display: flex;
+  }
+
+  .card {
+    width: 160px;
+    height: 145px;
+  }
+  .container .card .gambar img {
+    width: 65px;
+  }
+  .container .card .gambar {
+    height: 70px;
+  }
+  .container .card .tulisan {
+    font-size: 7.1px;
+  }
+}
+@media (max-width: 368px) {
+  .container {
+    display: flex;
+  }
+
+  .card {
+    width: 150px;
+    height: 135px;
+  }
+  .container .card .gambar img {
+    width: 70px;
+  }
+  .container .card .gambar {
+    height: 70px;
+  }
+  .container .card .tulisan {
+    font-size: 6px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    display: flex;
+  }
+
+  .card {
+    width: 150px;
+    height: 130px;
+  }
+  .container .card .gambar img {
+    width: 70px;
+  }
+  .container .card .gambar {
+    height: 70px;
+  }
+  .container .card .tulisan {
+    font-size: 5.5px;
+  }
+}
+/* /Konsentrasi */

@@ -56,3 +56,223 @@ section {
   background-color: rgb(29, 29, 29);
   color: aliceblue;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-satu {
+  max-width: 80%;
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-satu .gambar {
+  margin-left: 50px;
+}
+.container-satu .gambar img {
+  width: 300px;
+  height: 300px;
+}
+
+.container-satu .tulisan h3 {
+  font-size: 28px;
+}
+.container-satu .tulisan span {
+  display: block;
+  width: 450px;
+  height: 5px;
+  background-color: rgb(214, 172, 32);
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.container-satu .tulisan p {
+  font-size: 21px;
+}
+
+@media (max-width: 1024px) {
+  .container-satu .gambar img {
+    width: 250px;
+    height: 250px;
+  }
+  .container-satu .gambar {
+    margin-left: 25px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 23px;
+  }
+  .container-satu .tulisan p {
+    font-size: 17px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 350px;
+    height: 3px;
+  }
+}
+@media (max-width: 836px) {
+  .container-satu .gambar img {
+    width: 200px;
+    height: 200px;
+  }
+  .container-satu .gambar {
+    margin-left: 25px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 20px;
+  }
+  .container-satu .tulisan p {
+    font-size: 15px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 250px;
+    height: 3px;
+  }
+}
+@media (max-width: 768px) {
+  .container-satu .gambar img {
+    width: 200px;
+    height: 200px;
+  }
+  .container-satu .gambar {
+    margin-left: 25px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 17px;
+  }
+  .container-satu .tulisan p {
+    font-size: 13px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 250px;
+    height: 3px;
+  }
+}
+@media (max-width: 429px) {
+  .container-satu {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-satu .gambar img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 17px;
+  }
+  .container-satu .tulisan p {
+    font-size: 13px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 250px;
+    height: 3px;
+  }
+}
+@media (max-width: 415px) {
+  .container-satu {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-satu .gambar img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 15px;
+  }
+  .container-satu .tulisan p {
+    font-size: 13px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 240px;
+    height: 3px;
+  }
+}
+@media (max-width: 376px) {
+  .container-satu {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-satu .gambar img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-right: 22px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 15px;
+  }
+  .container-satu .tulisan p {
+    font-size: 12px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 230px;
+    height: 3px;
+  }
+}
+@media (max-width: 361px) {
+  .container-satu {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-satu .gambar img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+    margin-right: 22px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 13px;
+  }
+  .container-satu .tulisan p {
+    font-size: 12px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 210px;
+    height: 3px;
+  }
+}
+@media (max-width: 320px) {
+  .container-satu {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-satu .gambar img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+    margin-right: 22px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 12px;
+  }
+  .container-satu .tulisan p {
+    font-size: 9px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 190px;
+    height: 3px;
+  }
+}

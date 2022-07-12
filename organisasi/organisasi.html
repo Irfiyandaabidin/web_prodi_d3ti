@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link href="organisasi.css" rel="stylesheet" />
     <title>Organisasi</title>
@@ -80,45 +81,49 @@
     </nav>
     <!-- /navbar -->
 
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 pe-5">
-            <img src="image/himaditi.png" width="100%" alt="" />
-          </div>
-
-          <div class="col-md-6">
-            <h1>Himaditi</h1>
-            <p>
-              HIMADITI merupakan organisasi kemahasiswaan yang beranggotakan seluruh mahasiswa aktif Diploma Teknik Informatika Universitas Amikom Yogyakarta. Secara kedudukan berada dibawah koordinasi Wakil Rektor III Bidang Kemahasiswaan.
-            </p>
-          </div>
-        </div>
+    <div class="container-satu">
+      <div class="tulisan">
+        <h3>Himpunan Mahasiswa D3 Teknik Informatika <br>Universitas Amikom Yogyakarta</h3>
+        <p><span></span></p>
+        <p>HIMADITI merupakan organisasi kemahasiswaan yang beranggotakan seluruh mahasiswa aktif Diploma Teknik Informatika Universitas Amikom Yogyakarta. Secara kedudukan berada dibawah koordinasi Wakil Rektor III Bidang Kemahasiswaan.</p>
       </div>
-    </section>
+      <div class="gambar">
+        <img src="image/himaditi.png" alt="">
+      </div>
+    </div>
     <section> 
-          
-        <h2>Visi dan Misi</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <hr style="color: #f5911f; line-height: 10%;">
+            </div>
+            <div class="col-md-4 text-center">
+              <h2 style="color:#5b26ab">Visi dan Misi</h2>
+            </div>
+            <div class="col-md-4">
+              <hr style="color: #f5911f">
+            </div>
+          </div>
+        
 
       <div class="row content">
-        <div class="col-md-6">
-          <h3 class="text-center mb-3">VISI</h3>
-          <p class="text-justify">Membangun kerjasama antara mahasiswa D3 TI dengan pengelola Prodi D3 TI untuk menghasilkan mahasiswa yang unggul dalam bidang Teknologi Informasi dan Komunikasi yang berbasis entrepreneurship.</p>
+        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="fade-up">
+          <h3 class="text-center mb-3" style="color: #f5911f">VISI</h3>
+          <p class="text-center">"Membangun kerjasama antara mahasiswa D3 TI dengan pengelola Prodi D3 TI untuk menghasilkan mahasiswa yang unggul dalam bidang Teknologi Informasi dan Komunikasi yang berbasis entrepreneurship."</p>
         </div>
-        <div class="col-md-6 pt-4 pt-lg-0">
-          <h3 class="text-center mb-3">MISI</h3>
+        <div class="col-md-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="fade-up">
+          <h3 class="text-center mb-3" style="color: #f5911f">MISI</h3>
           <p></p>
-          <ul>
+          <ol>
             <li class="text-justify"><i class="ri-check-double-line"></i> Optimalisasi kerja dan fungsi himpunan mahasiswa D3 TI</li>
             <li class="text-justify"><i class="ri-check-double-line"></i> Membantu prodi memberikan pelayanan terhadap mahasiswa D3 TI secara maksimal</li>
             <li class="text-justify"><i class="ri-check-double-line"></i> Berperan aktif, memberikan wadah, untuk menggali dan mengembangkan potensi mahasiswa D3 TI</li>
             <li class="text-justify"><i class="ri-check-double-line"></i> Mendorong tumbuhnya kreativitas mahasiswa untuk menghasilkan karya-karya dibidang Teknologi Informasi dan Komunikasi</li>
-          </ul>
+          </ol>
         </div>
       </div>
     </section>
     <!-- footer -->
-    <footer style="background-image: linear-gradient(to bottom right ,#5b26ab, #7d1e88); border-top: solid #f5911f;">
+    <footer class="container-fluid" style="background-image: linear-gradient(to bottom right ,#5b26ab, #7d1e88); border-top: solid #f5911f;">
       <div class="container pt-5">
         <div class="row justify-content-around" style="color: whitesmoke;">
           <div class="col-md-4">
@@ -166,7 +171,13 @@
       </div>
     </footer>
     <!-- /footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
     <script>
       function myFunction() {
         var element = document.body;

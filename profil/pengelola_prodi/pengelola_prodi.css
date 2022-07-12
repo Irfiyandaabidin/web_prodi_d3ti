@@ -1,0 +1,59 @@
+/*navbar*/
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: rgb(214, 172, 32);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.navbar ul li {
+  position: relative;
+}
+
+.nav-item ul li :hover {
+  background-color: blueviolet !important;
+  border-radius: 5px;
+}
+
+/*/navbar*/
+
+.dark-mode {
+  background-color: rgb(29, 29, 29);
+  color: aliceblue;
+}
+
+/* content */
+* {
+  margin: 0;
+  margin: 0;
+}
+
+.container-gambar {
+  max-width: 80%;
+  margin: 50px auto;
+}
+.container-gambar h1 {
+  text-align: center;
+}
+.container-gambar img {
+  width: 100%;
+  padding-top: 20px;
+}
+@media (max-width: 426px) {
+  .container-gambar h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 376px) {
+  .container-gambar h1 {
+    font-size: 22px;
+  }
+}
