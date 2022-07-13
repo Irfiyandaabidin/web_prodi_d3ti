@@ -156,20 +156,16 @@ section {
     height: 3px;
   }
 }
-@media (max-width: 429px) {
-  .container-satu {
-    margin: 80px auto;
-    display: flex;
-    flex-direction: column-reverse;
-  }
+@media (max-width: 686px) {
   .container-satu .gambar img {
-    width: 190px;
-    height: 190px;
-    margin-bottom: 20px;
-    margin-right: 24px;
+    width: 200px;
+    height: 200px;
+  }
+  .container-satu .gambar {
+    margin-left: 25px;
   }
   .container-satu .tulisan h3 {
-    font-size: 17px;
+    font-size: 15px;
   }
   .container-satu .tulisan p {
     font-size: 13px;
@@ -180,7 +176,7 @@ section {
     height: 3px;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 480px) {
   .container-satu {
     margin: 80px auto;
     display: flex;
@@ -200,7 +196,55 @@ section {
   }
   .container-satu .tulisan span {
     display: block;
-    width: 240px;
+    width: 250px;
+    height: 3px;
+  }
+}
+@media (max-width: 426px) {
+  .container-satu {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-satu .gambar img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 15px;
+  }
+  .container-satu .tulisan p {
+    font-size: 13px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 250px;
+    height: 3px;
+  }
+}
+@media (max-width: 416px) {
+  .container-satu {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-satu .gambar img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+  }
+  .container-satu .tulisan h3 {
+    font-size: 13px;
+  }
+  .container-satu .tulisan p {
+    font-size: 13px;
+  }
+  .container-satu .tulisan span {
+    display: block;
+    width: 230px;
     height: 3px;
   }
 }
@@ -217,14 +261,14 @@ section {
     margin-right: 22px;
   }
   .container-satu .tulisan h3 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .container-satu .tulisan p {
     font-size: 12px;
   }
   .container-satu .tulisan span {
     display: block;
-    width: 230px;
+    width: 210px;
     height: 3px;
   }
 }

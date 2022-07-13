@@ -13,6 +13,9 @@
 .navbar ul li:hover::after {
   width: 100%;
 }
+.container-network .content {
+  display: flex;
+}
 
 .navbar ul li {
   position: relative;
@@ -73,7 +76,7 @@
     height: 310px;
   }
   .container-network .content .tulisan p {
-    font-size: 11px;
+    font-size: 1px;
   }
   .container-network h1 {
     font-size: 30px;
@@ -99,32 +102,30 @@
     text-align: center;
   }
 }
-@media (max-width: 426px) {
-  .container-network {
-    margin: 50px auto;
-  }
-  .container-network .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .container-network .content .gambar img {
-    width: 260px;
-    height: 175px;
-    margin-right: 0;
-    margin-top: 8px;
-  }
-  .container-network .content .tulisan p {
-    font-size: 9px;
-  }
-  .container-network h1 {
-    font-size: 23px;
-  }
-  .container-network h4 {
-    font-size: 9px;
-    text-align: center;
-  }
+.container-network {
+  margin: 50px auto;
+}
+.container-network .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-network .content .gambar img {
+  width: 260px;
+  height: 175px;
+  margin-right: 0;
+  margin-top: 8px;
+}
+.container-network .content .tulisan p {
+  font-size: 9px;
+}
+.container-network h1 {
+  font-size: 23px;
+}
+.container-network h4 {
+  font-size: 9px;
+  text-align: center;
 }
 @media (max-width: 376px) {
   .container-network {
